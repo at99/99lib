@@ -1,0 +1,37 @@
+{
+  "name": "99lib",
+  "version": "0.10",
+  "author": "vitrum zhu",
+  "description": "javascript lib",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/at99/99lib"
+  },
+  "docs": "http://at99.github.io/99lib/",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-watch": "0.4.3",
+    "grunt-contrib-jshint": "0.5.4",
+    "grunt-contrib-uglify": "0.2.1",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-connect": "0.3.0",
+    "grunt-shell": "0.3.1",
+    "platform": "1.0.0",
+    "benchmark": "1.0.0",
+    "lodash": "1.2.1",
+    "grunt-jsdoc": "0.4.0",
+    "ink-docstrap": "~0.2",
+    "grunt-karma": "0.7.0",
+    "karma-coverage": "0.1.0",
+    "karma-firefox-launcher": "0.1.0",
+    "karma-safari-launcher": "0.1.1",
+    "karma-opera-launcher": "0.1.0",
+    "grunt-browserify": "~1.2.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
